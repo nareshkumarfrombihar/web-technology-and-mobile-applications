@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Map</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Embedded CSS -->
+    <style>
+        h2 {
+            color: darkblue;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+.map-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;   /* full screen height */
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Inline CSS -->
+<h2 style="color: green;">Online Campus Navigation Map</h2>
+<div class="map-container">
+<iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15549.269530326945!2d79.99759085000001!3d13.015449599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528c9ebac84723%3A0x18e2bf88dfefa3ed!2sRajalakshmi%20Engineering%20College!5e0!3m2!1sen!2sin!4v1770374723584!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+<hr>
+
+<!-- Location Details -->
+<h2 id="library">📚 Library</h2>
+<p>Provides books, journals, and e-resources for students.</p>
+
+<h2 id="cse">💻 CSE Block</h2>
+<p>Contains computer labs and classrooms.</p>
+
+<h2 id="hostel">🏠 Hostel</h2>
+<p>Accommodation facility for students.</p>
+
+<h2 id="admin">🏢 Admin Office</h2>
